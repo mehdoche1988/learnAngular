@@ -1,5 +1,17 @@
-<h1>{{title}} </h1>
-
-<ul>
-    <li *ngFor="let horror of horrors">{{horror.name}}</li>
-</ul>
+<h1 class='center'>{{title}} </h1>
+<div class="container">
+    <div class="row">
+        <div *ngFor="let horror of horrors" class="col s6 m4">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img [src]="horror.picture">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>{{horror.name}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
