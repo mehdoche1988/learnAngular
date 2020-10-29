@@ -70,6 +70,21 @@ export const HORRORS: Horror[] = [
         movie: "Saw ",
         picture: "https://fr.web.img4.acsta.net/c_215_290/pictures/14/10/18/13/11/145703.jpg",
         created: new Date()
+    },
+    {
+        id: 11,
+        name: "Sadako",
+        movie: "Ring",
+        picture: "https://fr.web.img5.acsta.net/c_215_290/medias/nmedia/00/02/24/24/69197961_af.jpg",
+        created: new Date()
+    },
+    {
+        id: 12,
+        name: "Kayako",
+        movie: "Ju-On : The Grudge",
+        picture: "https://fr.web.img5.acsta.net/f_png/c_216_288/o_logo-netflix-n.png_5_se/pictures/20/06/08/11/39/5136284.jpg",
+        created: new Date()
     }
+
 
 ];
