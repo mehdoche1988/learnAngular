@@ -1,7 +1,25 @@
-import { Component } from '@angular/core';
-  
+import { Component, OnInit } from '@angular/core';
+
+import { Horror } from './horror';
+import { HORRORS } from './mock-horror';
+
 @Component({
   selector: 'Horror-app',
-  template: `<h1>Welcome to my world {{name}}</h1>`,
+  templateUrl: `./app/app.component.html`,
 })
-export class AppComponent  { name = 'Bitch'; }
+export class AppComponent implements OnInit {
+
+  private horrors: Horror[];
+  private title: string = "Tueurs de film d'horreur";
+
+  age = 20;
+
+  ngOnInit() {
+    this.horrors = HORRORS;
+  }
+
+
+  selectHorror(horror: Horror) {
+    alert("Vous avez cliquez sur " + horror.name)
+  }
+}

@@ -7,14 +7,22 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var mock_horror_1 = require("./mock-horror");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.name = 'Bitch';
+        this.title = "Tueurs de film d'horreur";
+        this.age = 20;
     }
+    AppComponent.prototype.ngOnInit = function () {
+        this.horrors = mock_horror_1.HORRORS;
+    };
+    AppComponent.prototype.selectHorror = function (horror) {
+        alert("Vous avez cliquez sur " + horror.name);
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'Horror-app',
-            template: "<h1>Welcome to my world {{name}}</h1>",
+            templateUrl: "./app/app.component.html",
         })
     ], AppComponent);
     return AppComponent;
