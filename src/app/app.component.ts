@@ -12,8 +12,6 @@ export class AppComponent implements OnInit {
   private horrors: Horror[];
   private title: string = "Tueurs de film d'horreur";
 
-  age = 20;
-
   ngOnInit() {
     this.horrors = HORRORS;
   }

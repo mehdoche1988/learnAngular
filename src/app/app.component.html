@@ -1,14 +1,16 @@
 <h1 class='center'>{{title}} </h1>
 <div class="container">
     <div class="row">
-        <div *ngFor="let horror of horrors" class="col s6 m4">
-            <div class="card horizontal">
+        <div *ngFor="let horror of horrors" class="col s12 m4">
+            <div class="card horizontal" (click)="selectHorror(horror)" horrorBorderCard>
                 <div class="card-image">
                     <img [src]="horror.picture">
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
-                        <p>{{horror.name}}</p>
+                        <b>
+                            <p>{{horror.name}}</p>
+                        </b>
                     </div>
                 </div>
             </div>

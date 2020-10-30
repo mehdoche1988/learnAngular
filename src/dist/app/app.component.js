@@ -11,7 +11,6 @@ var mock_horror_1 = require("./mock-horror");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = "Tueurs de film d'horreur";
-        this.age = 20;
     }
     AppComponent.prototype.ngOnInit = function () {
         this.horrors = mock_horror_1.HORRORS;
