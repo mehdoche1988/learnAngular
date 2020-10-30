@@ -6,6 +6,7 @@ exports.HORRORS = [
         name: "Freddy ",
         movie: "Les Griffes de la nuit",
         picture: "https://fr.web.img4.acsta.net/c_215_290/pictures/14/11/05/11/44/080245.jpg",
+        types: ["Horreur"],
         created: new Date()
     },
     {
@@ -13,6 +14,7 @@ exports.HORRORS = [
         name: "Jason",
         movie: "Vendredi 13 ",
         picture: "https://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/66/93/20/19050019.jpg",
+        types: ["Horreur", "Slasher"],
         created: new Date()
     },
     {
@@ -20,6 +22,7 @@ exports.HORRORS = [
         name: "Pennywise",
         movie: "Ça",
         picture: "https://fr.web.img2.acsta.net/c_215_290/pictures/17/03/29/14/40/513263.jpg",
+        types: ["Horreur", "Thriller"],
         created: new Date()
     },
     {
@@ -27,6 +30,7 @@ exports.HORRORS = [
         name: "Leatherface",
         movie: "Massacre à la tronçonneuse",
         picture: "https://fr.web.img4.acsta.net/c_215_290/pictures/14/09/25/13/08/561794.jpg",
+        types: ["Horreur"],
         created: new Date()
     },
     {
@@ -34,20 +38,23 @@ exports.HORRORS = [
         name: " Michael",
         movie: "Halloween",
         picture: "https://fr.web.img6.acsta.net/c_215_290/pictures/18/09/19/14/32/4251359.jpg",
+        types: ["Horreur", "Slasher"],
         created: new Date()
     },
     {
         id: 6,
         name: "Norman",
-        movie: "Psycho",
+        movie: "Psychose",
         picture: "https://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/44/77/18672162.jpg",
+        types: ["Horreur"],
         created: new Date()
     },
     {
         id: 7,
         name: "Ghostface",
-        movie: "The Scream",
+        movie: "Scream",
         picture: "https://fr.web.img4.acsta.net/c_215_290/medias/nmedia/18/36/12/88/18454857.jpg",
+        types: ["Horreur", "Slasher"],
         created: new Date()
     },
     {
@@ -55,6 +62,7 @@ exports.HORRORS = [
         name: "Pinhead",
         movie: "Hellraiser",
         picture: "https://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/63/14/44/18946269.jpg",
+        types: ["Horreur"],
         created: new Date()
     },
     {
@@ -62,6 +70,7 @@ exports.HORRORS = [
         name: "Chucky",
         movie: "Jeu d’enfant",
         picture: "https://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/70/93/92/20482627.jpg",
+        types: ["Horreur"],
         created: new Date()
     },
     {
@@ -69,6 +78,7 @@ exports.HORRORS = [
         name: "Jigsaw",
         movie: "Saw ",
         picture: "https://fr.web.img4.acsta.net/c_215_290/pictures/14/10/18/13/11/145703.jpg",
+        types: ["Horreur", "Gore"],
         created: new Date()
     },
     {
@@ -76,6 +86,7 @@ exports.HORRORS = [
         name: "Sadako",
         movie: "Ring",
         picture: "https://fr.web.img5.acsta.net/c_215_290/medias/nmedia/00/02/24/24/69197961_af.jpg",
+        types: ["Horreur"],
         created: new Date()
     },
     {
@@ -83,6 +94,7 @@ exports.HORRORS = [
         name: "Kayako",
         movie: "Ju-On : The Grudge",
         picture: "https://fr.web.img5.acsta.net/f_png/c_216_288/o_logo-netflix-n.png_5_se/pictures/20/06/08/11/39/5136284.jpg",
+        types: ["Horreur"],
         created: new Date()
     }
 ];

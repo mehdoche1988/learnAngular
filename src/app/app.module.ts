@@ -4,10 +4,11 @@ import { from } from 'rxjs';
 
 import { AppComponent } from './app.component';
 import { BorderCardDirective } from './border-card.directive';
+import { HorrorTypeColorPipe } from './horror-type-color.pipe';
 
 @NgModule({
   imports: [BrowserModule],
-  declarations: [AppComponent, BorderCardDirective],
+  declarations: [AppComponent, BorderCardDirective, HorrorTypeColorPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

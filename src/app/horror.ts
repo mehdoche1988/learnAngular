@@ -3,5 +3,6 @@ export class Horror {
     name: string;
     movie: string;
     picture: string;
+    types: Array<string>;
     created: Date;
 }

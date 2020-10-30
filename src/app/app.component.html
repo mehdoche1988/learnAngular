@@ -1,7 +1,7 @@
 <h1 class='center'>{{title}} </h1>
 <div class="container">
     <div class="row">
-        <div *ngFor="let horror of horrors" class="col s12 m4">
+        <div *ngFor="let horror of horrors" class="col s12 m6">
             <div class="card horizontal" (click)="selectHorror(horror)" horrorBorderCard>
                 <div class="card-image">
                     <img [src]="horror.picture">
@@ -10,6 +10,17 @@
                     <div class="card-content">
                         <b>
                             <p>{{horror.name}}</p>
+                            <h5>{{horror.movie}}</h5>
+                            <p>{{horror.created | date:"dd/MM/yyyy"}}</p>
+                            <br />
+                            <span *ngFor='let type of horror.types' class="{{type | horrorTypeColor}}">
+
+                                {{type}}
+
+                            </span>
+
+
+
                         </b>
                     </div>
                 </div>
