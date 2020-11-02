@@ -19,6 +19,7 @@ Oui, il est responsive!
 juste les images n'ont la même taille lorsqu'on rétrecit la  fenêtre
 ## A venir
 -connection
+
 -ajout de film
 -...
 
