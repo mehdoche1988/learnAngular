@@ -18,10 +18,15 @@ Je suis en train de créé une application sur des grands tueurs de film d'horre
 Oui, il est responsive! 
 juste les images n'ont la même taille lorsqu'on rétrecit la  fenêtre
 ## A venir
--connection
 
--ajout de film
--...
++ Les routes
++ Les modules
++ Services + dépendances
++ Formulaire
++ Requêtes
++ Authentification
++ Déployer
++ ...
 
 ## Screenshots 
 
