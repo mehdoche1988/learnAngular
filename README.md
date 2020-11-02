@@ -7,7 +7,7 @@ Je suis en train de créé une application sur des grands tueurs de film d'horre
 
 ## Langages utilisés ?
 
-+ HTML5, CSS3
++ HTML5, materializeCSS
 + TypeScript,
 + ... 
 
@@ -15,10 +15,11 @@ Je suis en train de créé une application sur des grands tueurs de film d'horre
 
 ## Responsive ?
 
-Oui, il est responsive!
-
+Oui, il est responsive! 
+juste les images n'ont la même taille lorsqu'on rétrecit la  fenêtre
 ## A venir
-
+-connection
+- ajout de film
 ...
 
 ## Screenshots 
