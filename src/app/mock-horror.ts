@@ -1,3 +1,5 @@
+import { DatePipe } from '@angular/common';
+import { isDate } from 'rxjs/internal/util/isDate';
 import { Horror } from './horror';
 
 export const HORRORS: Horror[] = [

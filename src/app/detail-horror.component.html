@@ -1,0 +1,36 @@
+<div *ngIf="horror" class="row">
+    <div class="col s12 m8 offset-m2">
+    <h2 class="header center">{{ pokemon.name }}</h2>
+    <div class="card horizontal hoverable">
+      <div class="card-image">
+        <img [src]="horror.picture">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <table class="bordered striped">
+            <tbody>
+              <tr>
+                <td>Nom</td>
+                <td><strong>{{ horror.name }}</strong></td>
+              </tr>
+              <tr>
+                <td>Types</td>
+                <td>
+                  <span *ngFor="let type of horror.types" class="{{ type | horrorTypeColor }}">{{ type }}</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Date de création</td>
+                <td><em>{{ horror.created | date:"dd/MM/yyyy" }}</em></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card-action">
+          <a (click)="goBack()">Retour</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <h4 *ngIf='!horror' class="center">Aucun pokémon à afficher !</h4>
