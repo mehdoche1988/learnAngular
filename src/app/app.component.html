@@ -9,19 +9,18 @@
                 <div class="card-stacked">
                     <div class="card-content">
                         <b>
-                            <p>{{horror.name}}</p>
-                            <h5>{{horror.movie}}</h5>
-                            <p>{{horror.created | date:"dd/MM/yyyy"}}</p>
-                            <br />
-                            <span *ngFor='let type of horror.types' class="{{type | horrorTypeColor}}">
-
-                                {{type}}
-
-                            </span>
-
-
-
+                            <h6>{{horror.name}}</h6>
                         </b>
+                        <h5>{{horror.movie}}</h5>
+                        <p>{{horror.release}}</p>
+                        <br />
+                        <span *ngFor='let type of horror.types' class="{{type | horrorTypeColor}}">
+
+                            {{type}}
+
+                        </span>
+
+
                     </div>
                 </div>
             </div>

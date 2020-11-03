@@ -9,39 +9,39 @@ export const HORRORS: Horror[] = [
         movie: "Les Griffes de la nuit",
         picture: "https://fr.web.img4.acsta.net/c_215_290/pictures/14/11/05/11/44/080245.jpg",
         types: ["Horreur"],
-        created: new Date()
+        release: "1984"
     },
     {
         id: 2,
         name: "Jason",
-        movie: "Vendredi 13 ",
-        picture: "https://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/66/93/20/19050019.jpg",
+        movie: "Vendredi 13",
+        picture: "https://fr.web.img5.acsta.net/medias/nmedia/18/65/68/05/18956937.jpg",
         types: ["Horreur","Slasher"],
-        created: new Date()
+        release: "1980"
     },
     {
         id: 3,
         name: "Pennywise",
         movie: "Ça",
-        picture: "https://fr.web.img2.acsta.net/c_215_290/pictures/17/03/29/14/40/513263.jpg",
+        picture: "https://fr.web.img2.acsta.net/r_1280_720/pictures/bzp/02/54874.jpg",
         types:["Horreur","Thriller"],
-        created: new Date()
+        release: "1990"
     },
     {
         id: 4,
         name: "Leatherface",
         movie: "Massacre à la tronçonneuse",
-        picture: "https://fr.web.img4.acsta.net/c_215_290/pictures/14/09/25/13/08/561794.jpg",
+        picture: "https://fr.web.img3.acsta.net/pictures/14/09/25/13/08/561794.jpg",
         types:["Horreur"],
-        created: new Date()
+        release: "1974"
     },
     {
         id: 5,
         name: " Michael",
         movie: "Halloween",
-        picture: "https://fr.web.img6.acsta.net/c_215_290/pictures/18/09/19/14/32/4251359.jpg",
+        picture: "https://fr.web.img6.acsta.net/medias/nmedia/18/66/15/82/19106164.jpg",
         types:["Horreur","Slasher"],
-        created: new Date()
+        release: "1978"
     },
     {
         id: 6,
@@ -49,7 +49,7 @@ export const HORRORS: Horror[] = [
         movie: "Psychose",
         picture: "https://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/44/77/18672162.jpg",
         types:["Horreur"],
-        created: new Date()
+        release: "1960"
     },
     {
         id: 7,
@@ -57,7 +57,7 @@ export const HORRORS: Horror[] = [
         movie: "Scream",
         picture: "https://fr.web.img4.acsta.net/c_215_290/medias/nmedia/18/36/12/88/18454857.jpg",
         types:["Horreur","Slasher"],
-        created: new Date()
+        release: "1996"
     },
     {
         id: 8,
@@ -65,7 +65,7 @@ export const HORRORS: Horror[] = [
         movie: "Hellraiser",
         picture: "https://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/63/14/44/18946269.jpg",
         types:["Horreur"],
-        created: new Date()
+        release: "1987"
     },
     {
         id: 9,
@@ -73,7 +73,7 @@ export const HORRORS: Horror[] = [
         movie: "Jeu d’enfant",
         picture: "https://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/70/93/92/20482627.jpg",
         types:["Horreur"],
-        created: new Date()
+        release: "1988"
     },
     {
         id: 10,
@@ -81,7 +81,7 @@ export const HORRORS: Horror[] = [
         movie: "Saw ",
         picture: "https://fr.web.img4.acsta.net/c_215_290/pictures/14/10/18/13/11/145703.jpg",
         types:["Horreur","Gore"],
-        created: new Date()
+        release: "2004"
     },
     {
         id: 11,
@@ -89,15 +89,15 @@ export const HORRORS: Horror[] = [
         movie: "Ring",
         picture: "https://fr.web.img5.acsta.net/c_215_290/medias/nmedia/00/02/24/24/69197961_af.jpg",
         types:["Horreur"],
-        created: new Date()
+        release: "1998"
     },
     {
         id: 12,
         name: "Kayako",
         movie: "Ju-On : The Grudge",
-        picture: "https://fr.web.img5.acsta.net/f_png/c_216_288/o_logo-netflix-n.png_5_se/pictures/20/06/08/11/39/5136284.jpg",
+        picture: "https://s.scifi-universe.com/galeries/images/9000/9545-affiche-01.jpg",
         types:["Horreur"],
-        created: new Date()
+        release: "2002"
     }
 
 
